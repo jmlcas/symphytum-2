@@ -12,7 +12,7 @@ services:
       - CUSTOM_USER=admin
       - PASSWORD=p4ssw0rd
       - LC_ALL=es_ES.UTF-8
-      volumes:
+    volumes:
       - ./config:/config
       - /var/run/docker.sock:/var/run/docker.sock #optional
     ports:
